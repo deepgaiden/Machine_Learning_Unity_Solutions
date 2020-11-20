@@ -14,7 +14,7 @@ public class BallAgentLogic : Agent
     }
 
     public Transform target;
-    public override void OnEpisodeBegin()
+      
     {
         // Reset agent
         this.rBody.angularVelocity = Vector3.zero;
