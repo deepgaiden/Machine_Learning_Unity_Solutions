@@ -1,0 +1,17 @@
+----To open the virtual environment:
+
+# cd D:\DeepGaiden\python-envs
+
+# deep-env\Scripts\activate
+
+----To start training:
+
+# mlagents-learn config/ppo/3DBall.yaml --run-id=first3DBallRun
+
+----To resume training:
+
+# mlagents-learn config/ppo/3DBall.yaml --run-id=first3DBallRun --resume
+
+----To see the results:
+
+# tensorboard --logdir results
